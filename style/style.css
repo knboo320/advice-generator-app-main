@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #202632;
+}
+
+.container {
+  width: 40%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #313a49;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+.container h1 {
+  color: #50efa3;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.container p {
+  color: #cde1e8;
+  font-size: 42px;
+  margin: 20px;
+  text-align: center;
+}
+.container button {
+  background: #50efa3;
+  border: none;
+  padding: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  transition: 0.2s linear;
+}
+.container button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
